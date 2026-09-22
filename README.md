@@ -15,10 +15,6 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 
 A small collection of practical command-line tools, including a password generator, configurable port scanner, and WHOIS client. The project includes safer defaults, usage documentation, and automated Python checks.
 
-### NPC Interaction Prototype · in development
-
-A Roblox/Luau interaction system with nearest-NPC detection, contextual UI, server-side distance validation, anti-spam protection, and data-driven dialogue.
-
 ## Technologies
 
 - **Languages:** Java, Python, Luau, JavaScript, C#, C++
