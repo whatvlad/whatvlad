@@ -4,7 +4,7 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 
 ## What I'm working on
 
-- strengthening my Java and software-engineering fundamentals
+- strengthening my software-engineering fundamentals
 - building useful Python utilities with clear documentation and automated checks
 - developing server-authoritative multiplayer systems with Roblox and Luau
 - improving how I design, test, and present projects
