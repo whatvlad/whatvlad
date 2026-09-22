@@ -17,9 +17,9 @@ A small collection of practical command-line tools, including a password generat
 
 ## Technologies
 
-- **Languages:** Java, Python, Luau, JavaScript, C#, C++
+- **Languages:** Java, Python, JavaScript, С, C++
 - **Web:** HTML, CSS, responsive layouts
-- **Tools:** Git, GitHub Actions, Visual Studio, IntelliJ IDEA, Roblox Studio, Rojo
+- **Tools:** Git, GitHub Actions, Visual Studio, IntelliJ IDEA
 
 ## Learning in public
 
