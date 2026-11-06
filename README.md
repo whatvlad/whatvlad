@@ -6,7 +6,6 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 
 - strengthening my software-engineering fundamentals
 - building useful Python utilities with clear documentation and automated checks
-- developing server-authoritative multiplayer systems with Roblox and Luau
 - improving how I design, test, and present projects
 
 ## Selected work
@@ -19,7 +18,7 @@ A small collection of practical command-line tools, including a password generat
 
 - **Languages:** Java, Python, JavaScript, С, C++
 - **Web:** HTML, CSS, responsive layouts
-- **Tools:** Git, GitHub Actions, Visual Studio, IntelliJ IDEA
+- **Tools:** Git, GitHub Actions
 
 ## Learning in public
 
