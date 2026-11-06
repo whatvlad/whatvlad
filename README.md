@@ -1,14 +1,26 @@
 # Hi, I'm Vladyslav 👋
 
-I'm a Computing student at TU Dublin, building practical experience through software projects and consistent hands-on learning.
+I'm a Computing student at TU Dublin, building practical experience through software projects and hands-on learning. My interests include Python development, computer vision, and local AI tools.
 
 ## What I'm working on
 
-- strengthening my software-engineering fundamentals
-- building useful Python utilities with clear documentation and automated checks
-- improving how I design, test, and present projects
+- building computer vision tools for custom object detection
+- connecting local language models to practical tools and a Telegram interface
+- strengthening my software-engineering fundamentals through readable code, testing, and clear documentation
 
 ## Selected work
+
+### [Custom Object Detection](https://github.com/whatvlad/custom-object-detection)
+
+A configurable single-class object detection pipeline for game screenshots. It includes screenshot collection, a mouse-based annotation tool, YOLO training, and live bounding-box predictions in a preview window or an optional Windows overlay. A synthetic dataset generator is included for trying the pipeline before collecting gameplay images.
+
+**Built with:** Python, Ultralytics YOLO, OpenCV, MSS, NumPy.
+
+### [Local AI Agent](https://github.com/whatvlad/local-ai-agent)
+
+A local Ollama assistant with a Telegram interface and Python tools for web research, persistent reminders, and email. Model-generated tool requests are routed to explicit functions, with tool errors returned to the model for correction. SQLite stores reminders and email drafts; reviewed drafts can be sent through SMTP, and inbox messages can be read through IMAP.
+
+**Built with:** Python, Ollama, python-telegram-bot, SQLite, HTTPX, DDGS, SMTP/IMAP.
 
 ### [Python Utilities](https://github.com/whatvlad/pyprojects)
 
@@ -16,9 +28,11 @@ A small collection of practical command-line tools, including a password generat
 
 ## Technologies
 
-- **Languages:** Java, Python, JavaScript, С, C++
+- **Languages:** Python, Java, JavaScript, C, C++
+- **Computer vision:** Ultralytics YOLO, OpenCV, NumPy
+- **AI and automation:** Ollama, Telegram bots, Python tool calling
 - **Web:** HTML, CSS, responsive layouts
-- **Tools:** Git, GitHub Actions
+- **Data and tools:** SQLite, Git, GitHub Actions
 
 ## Learning in public
 
