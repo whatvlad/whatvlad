@@ -1,6 +1,6 @@
 # Hi, I'm Vladyslav 👋
 
-I'm a Computing student at TU Dublin, building practical experience through software projects and hands-on learning. My interests include Python development, computer vision, and local AI tools.
+I'm a Computer Science student and I am building practical experience through software projects and hands-on learning. My interests include Python development, computer vision, and local AI tools.
 
 ## What I'm working on
 
