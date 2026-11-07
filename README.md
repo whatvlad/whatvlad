@@ -5,7 +5,7 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 ## What I'm working on
 
 - building computer vision tools for custom object detection
-- connecting local language models to practical tools and a Telegram interface
+- connecting local language models to practical tools
 - strengthening my software-engineering fundamentals through readable code, testing, and clear documentation
 
 ## Selected work
