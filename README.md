@@ -10,6 +10,12 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 
 ## Selected work
 
+### [Bullseye](https://github.com/whatvlad/bullseye-lab)
+
+A real-time market data analytics system. It ingests a live stream of market events over WebSocket/RPC, detects signals, and validates strategies through paper trading with no real money. Latency and API rate limits are handled so that all data collection stays within a free API tier. Data is stored in PostgreSQL, and strategies are checked with backtests, replay analysis, and out-of-sample validation on a dataset of 80k+ observations. A Telegram bot provides control (start/stop, settings, alerts), and the project is covered by 600+ automated tests.
+
+**Built with:** Python, PostgreSQL, Docker, Alembic, WebSocket/RPC, python-telegram-bot, pytest.
+
 ### [Custom Object Detection](https://github.com/whatvlad/custom-object-detection)
 
 A configurable single-class object detection pipeline for game screenshots. It includes screenshot collection, a mouse-based annotation tool, YOLO training, and live bounding-box predictions in a preview window or an optional Windows overlay. A synthetic dataset generator is included for trying the pipeline before collecting gameplay images.
@@ -32,7 +38,7 @@ A small collection of practical command-line tools, including a password generat
 - **Computer vision:** Ultralytics YOLO, OpenCV, NumPy
 - **AI and automation:** Ollama, Telegram bots, Python tool calling
 - **Web:** HTML, CSS, responsive layouts
-- **Data and tools:** SQLite, Git, GitHub Actions
+- **Data and tools:** PostgreSQL, SQLite, Docker, Git, GitHub Actions, pytest
 
 ## Learning in public
 
