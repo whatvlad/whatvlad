@@ -14,7 +14,7 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 
 A real-time market data analytics system. It ingests a live stream of market events over WebSocket/RPC, detects signals, and validates strategies through paper trading with no real money. Latency and API rate limits are handled so that all data collection stays within a free API tier. Data is stored in PostgreSQL, and strategies are checked with backtests, replay analysis, and out-of-sample validation on a dataset of 80k+ observations. A Telegram bot provides control (start/stop, settings, alerts), and the project is covered by 600+ automated tests.
 
-**Built with:** Python, PostgreSQL, Docker, Alembic, WebSocket/RPC, python-telegram-bot, pytest.
+**Built with:** Python, asyncio, WebSockets, PostgreSQL, SQLAlchemy, Alembic, Docker, Telegram Bot API, pytest.
 
 ### [Custom Object Detection](https://github.com/whatvlad/custom-object-detection)
 
