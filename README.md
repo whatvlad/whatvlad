@@ -10,6 +10,12 @@ I'm a Computing student at TU Dublin, building practical experience through soft
 
 ## Selected work
 
+### PracticeLoop · [Live demo](https://practiceloop.pages.dev)
+
+A maths practice web app, built with a second developer: users pick a topic and difficulty, get a generated problem, type their answer in a maths editor, and can reveal the correct answer or a full worked solution, with a history of everything they have solved. Problems are generated from rule-based templates, not by an LLM: every problem has a short shareable code, and a frozen SHA-256-based PRNG makes the same code always reproduce the same problem. A catalogue of 14,080 problems across 50 topics (algebra, calculus, probability and statistics) is built and checked with SymPy at deploy time. Answers are graded by SymPy symbolic equivalence in a sandboxed worker with CPU and memory limits, so any mathematically equal form is accepted. The project also generates PDF worksheets and 3D graphs for multivariable integrals, and is covered by about 8,000 automated tests. *The repository is private.*
+
+**Built with:** Python, FastAPI, SymPy, PostgreSQL (Supabase, row-level security), React, TypeScript, Vite, KaTeX, MathLive, Three.js, Cloudflare Pages, GitHub Actions.
+
 ### [Bullseye](https://github.com/whatvlad/bullseye-lab)
 
 A real-time market data analytics system. It ingests a live stream of market events over WebSocket/RPC, detects signals, and validates strategies through paper trading with no real money. Latency and API rate limits are handled so that all data collection stays within a free API tier. Data is stored in PostgreSQL, and strategies are checked with backtests, replay analysis, and out-of-sample validation on a dataset of 80k+ observations. A Telegram bot provides control (start/stop, settings, alerts), and the project is covered by 600+ automated tests.
