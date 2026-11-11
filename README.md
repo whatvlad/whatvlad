@@ -10,7 +10,7 @@ I'm a Computer Science student and I am building practical experience through so
 
 ## Selected work
 
-### PracticeLoop · [Live demo](https://practiceloop.pages.dev)
+### MathLoop · [Live demo](https://mathloop.net)
 
 A maths practice web app, built with a second developer: users pick a topic and difficulty, get a generated problem, type their answer in a maths editor, and can reveal the correct answer or a full worked solution, with a history of everything they have solved. Problems are generated from rule-based templates, not by an LLM: every problem has a short shareable code, and a frozen SHA-256-based PRNG makes the same code always reproduce the same problem. A catalogue of 14,080 problems across 50 topics (algebra, calculus, probability and statistics) is built and checked with SymPy at deploy time. Answers are graded by SymPy symbolic equivalence in a sandboxed worker with CPU and memory limits, so any mathematically equal form is accepted. The project also generates PDF worksheets and 3D graphs for multivariable integrals, and is covered by about 8,000 automated tests. *The repository is private.*
 
